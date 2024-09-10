@@ -10,10 +10,6 @@ This is a simple To-Do List web application that allows users to add, view, and 
 - **Dark theme**: The application uses a modern dark color scheme with a background image.
 - **Task completion**: Users can mark tasks as complete, which applies a line-through to the task text.
 
-## Screenshots
-
-![To-Do List Application](./images/to-do.png)
-
 ## Technologies Used
 
 - **HTML**: For structuring the web page.
