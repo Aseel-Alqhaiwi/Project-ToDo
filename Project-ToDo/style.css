@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./images/background.jpg);
+    background-size:cover;  /* Ensure the image covers the entire screen */
+    background-position: center;  /* Center the background image */
+    background-repeat: no-repeat;  /* Prevent the image from repeating */
+    background-attachment: fixed;  /* Keep the background fixed when scrolling */
+}
+.header-style {
+    display: flex;
+    align-items: center;  /* Align the image and heading vertically */
+    justify-content: center;  /* Center the content horizontally */
+    padding: 20px;
+    /* background-color: #f4f4f9;  Light background color */
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  Subtle shadow for a modern look */
+    margin: 5px auto;
+}
+
+.header-style h1 {
+    font-family: 'Roboto', sans-serif;  /* Modern font for the heading */
+    font-size: 2rem;
+    margin-right: 15px;  /* Space between the heading and the image */
+    color: #333;
+}
+
+.header-style img {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;  /* Keep image proportionate */
+}
+
+@media (max-width: 768px) {
+    .header-style {
+        flex-direction: row;  /* Stack elements on smaller screens */
+    }
+
+    .header-style h1 {
+        margin-bottom: 10px;  /* Add space below the heading */
+        margin-right: 0;
+    }
+
+    .header-style img {
+        margin-top: 10px;
+    }
+}
+
+
+.input-style {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 500px; */
+    margin: 0px auto 10px;
+    /* background-color: #f4f4f9; */
+    padding: 20px;
+    border-radius: 10px;
+    /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+input#text {
+    width: 100%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+input#date{
+    width: 30%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 15px;
+    margin-left: 10px;
+    background-color: rgba(0, 0, 0, 255); /* Black button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+ul.ul-style {
+    list-style-type: none;
+    padding: 0;
+    margin: 20px 0;
+    width: 100%;
+    text-align: left;
+}
+
+li.list-style {
+    /* background-color: #fff; */
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    display: flex;
+    align-items: center;
+}
+/* Delete button styling */
+.delete-btn {
+    margin-left: auto;
+    padding: 5px 10px;
+    background-color: rgba(0, 0, 0, 255); /* Black button */
+    color: white;
+    border: none;
+    border-radius: 
+    5px;
+    cursor: pointer;
+}
+
+.delete-btn:hover {
+    background-color: rgba(255, 40, 40, 255); /* Light turquoise on hover */
+}
