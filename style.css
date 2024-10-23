@@ -95,20 +95,34 @@ button:hover {
 ul.ul-style {
     list-style-type: none;
     padding: 0;
-    margin: 20px 0;
-    width: 100%;
+    margin: auto;
+    width: 95%;
     text-align: left;
 }
 
 li.list-style {
-    /* background-color: #fff; */
     margin: 10px 0;
-    padding: 10px;
-    border-radius: 5px;
-    /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+    padding: 15px;
+    border: 2px solid rgb(60, 60, 60);  /* Add a blue border */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Add a subtle shadow */
     display: flex;
     align-items: center;
+    transition: transform 0.2s ease;  /* Add smooth transition */
 }
+
+li.list-style:hover {
+    transform: scale(1.02);  /* Slightly enlarge on hover for better interactivity */
+}
+
+p {
+    flex-grow: 1;
+    font-size: 20px;
+    color: #333;
+    font-weight: bold;
+    font-family: "Playwrite GB S", cursive;
+}
+
 /* Delete button styling */
 .delete-btn {
     margin-left: auto;
@@ -124,3 +138,10 @@ li.list-style {
 .delete-btn:hover {
     background-color: rgba(255, 40, 40, 255); /* Light turquoise on hover */
 }
+
+input[type="checkbox"] {
+    width: 2em;
+    height: 2rem;
+    accent-color: green;
+  }
+  
